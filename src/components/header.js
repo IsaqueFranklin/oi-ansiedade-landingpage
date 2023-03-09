@@ -1,5 +1,5 @@
 import React from 'react'
-import { withRouter } from 'react-router-dom'
+//import { withRouter } from 'react-router-dom'
 import { Nav, Navbar, NavDropdown, Form, Button, FormControl } from 'react-bootstrap'
 import { FirebaseContext } from '../firebase'
 
@@ -33,4 +33,4 @@ function Header() {
     )
 }
 
-export default withRouter(Header);
+export default Header;
