@@ -7,10 +7,12 @@ class Firebase {
     constructor() {
         app.initializeApp(firebaseConfig)
         this.auth = app.auth();
-        this.db = app.firestore;
+        this.db = app.firestore();
     }
+
+
 }
 
-const firebase = new Firebase();
+const firebase = new Firebase()
 
 export default firebase;

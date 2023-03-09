@@ -1,9 +1,10 @@
 import './App.css';
 import './styles/style.css';
-import {BrowserRouter, Switch, Route, Redirect, Component } from 'react-router-dom';
-import firebase, {FirebaseContext} from './firebase';
+import { BrowserRouter, Switch, Route, Redirect, Component } from 'react-router-dom';
+import firebase, { FirebaseContext } from './firebase';
 import useAuth from './authentication/useAuth';
 import Home from './components/home';
+import Header from './components/header';
 
 function App() {
   return (
