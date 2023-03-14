@@ -6,6 +6,8 @@ import useAuth from './authentication/useAuth';
 import Home from './components/home';
 import Header from './components/header';
 import Contato from './components/contato';
+import Footer from './components/footer';
+
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
               <Route exact path='/contato' element={ <Contato /> } />
             </Routes>
           </div>
+          <Footer />
         </div>
       </FirebaseContext.Provider>
     </BrowserRouter>

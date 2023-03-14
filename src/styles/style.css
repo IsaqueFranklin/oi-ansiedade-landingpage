@@ -58,12 +58,12 @@
 }
 
 .paragraph3 {
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     text-align: left;
     margin-left: 12px;
     margin-right: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     font-weight: 200;
     line-height: 1.6;
     letter-spacing: 1px;
@@ -244,8 +244,7 @@ button:hover {
     color: #fff;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 
@@ -277,10 +276,16 @@ button:hover {
         align-self: center;
     }
 
-    .pointo2 {
-        max-width: 80%;
-        max-height: 70%;
-        align-content: center;
+    .header {
+        margin-left: 30px;
+    }
+
+    .header2 {
+        margin-left: 30px;
+    }
+
+    .logo {
+        margin-left: 30px;
     }
 }
 
@@ -309,6 +314,18 @@ button:hover {
         height: 70vh;
         align-content: center;
         align-self: center;
+    }
+
+    .header {
+        margin-left: 1350px;
+    }
+
+    .header2 {
+        margin-left: 5px;
+    }
+
+    .logo {
+        margin-left: 70px;
     }
 }
 
