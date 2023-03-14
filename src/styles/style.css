@@ -317,6 +317,28 @@ button:hover {
     }
 
     .header {
+        margin-left: 830px;
+    }
+
+    .header2 {
+        margin-left: 5px;
+    }
+
+    .logo {
+        margin-left: 70px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .pointo {
+        width: 100vh;
+        height: 70vh;
+        align-content: center;
+        align-self: center;
+    }
+
+    .header {
         margin-left: 1350px;
     }
 

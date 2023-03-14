@@ -36,28 +36,59 @@ function Home() {
                         <h2 className="titulo" style={{}}>Quixote Club</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Do plebeu ao rei, essa é a Quixote Club, uma comunidade que vai te ensinar desde mentalidade e livros grandiosos até como fazer dinheiro do absoluto zero com a internet sendo jovem e perdido na vida.</p>
                         <br></br>
-                        <a href="/about"><button style={{margin: '12px'}}>Assinar agora</button></a>
+                        <a href="https://pay.kiwify.com.br/3c1iHxJ"><button style={{margin: '12px'}}>Assinar agora</button></a>
                     </Col>
                 </Row>
             </Container>      
         </div>
 
         <div className="pitch" id="#pitch">
-            <Container style={{alignItems: 'center', textAlign: ''}}>
-                <Row style={{marginTop: '120px', marginBottom: '30px'}} className="mar">
-                    <Col sm>
+            <Container style={{alignItems: 'center'}}>
+                <Row style={{marginTop: '120px', marginBottom: '30px'}} className="">
+                    <Col>
                     <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Nós ajudamos a escalar negócios e empresas com nossa tecnologia e software.💡✨</h4>
+                    <h4 className="titulo3" style={{}} align="left">Tenha acesso a conteúdos exclusivos para sair de plebeu e se tornar rei 👑</h4>
                     <br></br>
                     <p className="paragraph3">A Horizon Labs desenvolve sistemas, aplicativos e automações para a internet, criamos coisas do zero totalmente pensadas para a internet do futuro.</p>
                     <p className="paragraph3">Construimos softwares online e aplicativos para empresas e negócios, conseguimos melhorar sua produtividade e lucratividade com nossa tecnologia.</p>
                     <p className="paragraph3"></p>
                     <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos sistemas</h4>
-                    <br></br>
-                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2" style={{marginTop: '60px'}}>Conversar com os programadores</button></a>
+                    <a href="https://pay.kiwify.com.br/3c1iHxJ"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Assinar Quixote Club</button></a>
+                    </Col>
+                    <Col>
+                        <img className="pointo" style={{alignItems: 'center'}} src="../img/cover.jpg" alt="lâmpada" />
                     </Col>
                 </Row>
+            </Container>
+        </div>
+
+        <div className="services" id="#services">
+            <Container style={{marginTop: '70px', marginBottom: '70px'}}>
+                <h2 className="titulo3" style={{marginBottom: '30px'}}>Conteúdos Exclusivos da Quixote Club</h2>
+                <br></br>
+                <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🖥️</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Curso completo do 0 aos 5k/Mês com dropshipping</p>
+                    </Col>
+                        
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🌎</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Curso o grande plano para sair do zero e ganhar dinheiro online</p>
+                    </Col>
+
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🚀</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Lives ao vivo toda semana sobre estratégia digital para menbros da comunidade</p>
+                    </Col>
+
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💸</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Diversos outros cursos e conteúdos que serão produzidos durante a validade da sua assinatura.</p>
+                    </Col>
+                </Row>
+                <br></br>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2">Assinar</button></a>
             </Container>
         </div>
         
@@ -68,7 +99,7 @@ function Home() {
                         <img className="pics pointo" style={{alignItems: 'center'}} src="img/logo2.png" alt="lâmpada" />
                     </Col>
                     <Col>
-                        <h2 className="titulo1" style={{}}>A Horizon Labs</h2>
+                        <h2 className="titulo1" style={{}}>O que você terá acesso?</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
                         <br></br>
                         <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
@@ -143,36 +174,6 @@ function Home() {
                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button style={{marginTop: '40px'}} className="buttonSale2">Conversar com os programadores</button></a>
                     </Col>
                 </Row>
-            </Container>
-        </div>
-
-        <div className="services" id="#services">
-            <Container style={{marginTop: '70px', marginBottom: '70px'}}>
-                <h2 className="titulo3" style={{marginBottom: '30px'}}>Como a tecnologia da Horizon pode ajudar o seu negócio?</h2>
-                <br></br>
-                <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
-                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🖥️</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Criação de websites e sistemas específicos para a web 3.0.</p>
-                    </Col>
-                        
-                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🌎</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Desenvolvimento de soluções modernas que atendam suas necessidades.</p>
-                    </Col>
-
-                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🚀</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Otimização de softwares e sistemas para funcionarem de acordo com a a web em 2022.</p>
-                    </Col>
-
-                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💸</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Melhorar a lucratividade do seu negócio através da nossa tecnologia.</p>
-                    </Col>
-                </Row>
-                <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2">Quero saber mais</button></a>
             </Container>
         </div>
 
