@@ -26,57 +26,20 @@ function Home() {
                 { property: 'twitter:description', content: seo.description },
         ]} />
 
-        <div className="frontbanne">
-            <Carousel style={{height: "90vh", width: "100%"}} controls={true}>
-                        <Carousel.Item>
-                            <img
-                            className="bob2"
-                            src="https://images.unsplash.com/photo-1676040463906-e5033615d8b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80"
-                            alt="First slide"
-                            />
-                            <Carousel.Caption>
-                                <div className="frontWords2">
-                                    <h1 className="titulo">Quixote Club</h1>
-                                    <h4 className="paragraph">Limited Assinatura</h4>
-                                    <br></br>
-                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Assinar</button></a>
-
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="bob"
-                            src="https://images.unsplash.com/photo-1595784777383-7e427035a15d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                            alt="Second slide"
-                            />
-                            <Carousel.Caption>
-                                <div className="frontWords2">
-                                    <h1 className="titulo">Quixote Club</h1>
-                                    <h4 className="paragraph">Limited Assinatura</h4>
-                                    <br></br>
-                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Assinar</button></a>
-
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="bob2"
-                            src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                            alt="Third slide"
-                            />
-                            <Carousel.Caption>
-                                <div className="frontWords2">
-                                    <h1 className="titulo">Quixote Club</h1>
-                                    <h4 className="paragraph">Limited Assinatura</h4>
-                                    <br></br>
-                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Assinar</button></a>
-
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>           
+        <div className="about">
+            <Container>
+                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="">
+                    <Col>
+                        <img className="" style={{alignItems: 'center', width: '100vh', height: '70vh'}} src="../img/cover3.jpg" alt="lâmpada" />
+                    </Col>
+                    <Col sm>
+                        <h2 className="titulo" style={{}}>Quixote Club</h2>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Do plebeu ao rei, essa é a Quixote Club, uma comunidade que vai te ensinar desde mentalidade e livros grandiosos até como fazer dinheiro do absoluto zero com a internet sendo jovem e perdido na vida.</p>
+                        <br></br>
+                        <a href="/about"><button style={{margin: '12px'}}>Assinar agora</button></a>
+                    </Col>
+                </Row>
+            </Container>      
         </div>
 
         <div className="pitch" id="#pitch">
