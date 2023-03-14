@@ -115,7 +115,7 @@ function Home() {
                         <h2 className="titulo1" style={{}}>Aprenda a criar valor a ganhar dinheiro na internet</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Sem enrolação, sem falsas promessas, na Quixote Club nos ensinamos o que não ensinam em nenhum outro lugar: a realidade como ela é. Desenvolva habilidades e se torne um jovem empreendedor, faça parte do grupo de networking e conheça sócios.</p>
                         <br></br>
-                        <a href="/about"><button style={{margin: '12px'}}>Quixote Club</button></a>
+                        <a href="/about"><button className='buttonSale2' style={{margin: '12px'}}>Quixote Club</button></a>
                     </Col>
                 </Row>
             </Container>
@@ -126,52 +126,52 @@ function Home() {
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="../img/cover12.jpg"
                             alt="First slide"
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo">Websites</h1>
-                                <h4 align="center" className="paragraph">Soluções para a web 3.0</h4>
+                                <h1 className="titulo">Networking</h1>
+                                <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+                                <a href=""><button className="">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="https://images.unsplash.com/photo-1624378515195-6bbdb73dff1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="../img/cover.jpg"
                             alt="Second slide"
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo">Aplicativos</h1>
-                                <h4 align="center" className="paragraph">Soluções para a web 3.0</h4>
+                                <h1 className="titulo">Estilo de vida</h1>
+                                <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+                                <a href=""><button className="">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="../img/cover13.jpg"
                             alt="Third slide"
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo">Sistemas e soluções</h1>
-                                <h4 align="center" className="paragraph">Soluções para a web 3.0</h4>
+                                <h1 className="titulo">Negócios & Dinheiro</h1>
+                                <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+                                <a href=""><button className="">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>           
         </div>           
 
-        <div className="pitch" id="#pitch">
+        {/*<div className="pitch" id="#pitch">
             <Container style={{alignItems: 'center', textAlign: ''}}>
                 <Row style={{marginTop: '100px', marginBottom: '100px'}} className="mar">
                     <Col sm>
@@ -188,23 +188,20 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
-        </div>
+    </div>*/}
 
         <div className="packages" id="#packages">
             <Container style={{marginBottom: '90px'}}>
-                <Row style={{marginTop: '90px', marginBottom: '40px'}} className="mar">
+                <Row style={{marginTop: '200px', marginBottom: '40px'}} className="mar">
                     <Col sm>
-                        <h2 className="titulo3" style={{}}>Tecnologia para resolver problemas reais</h2>
+                        <h2 className="titulo1" style={{}}>Ainda tem dúvidas sobre a Quixote Club?</h2>
                         <br></br>
                         <br></br>
-                        <p className="paragraph3" style={{textAlign: 'center', margin: '12px'}}>Não importa o setor em que o seu negócio opera, contamos com especialistas em todas as tecnologias disponíveis para te ajudar. Desde linguagens tradicionais como Java, .NET e Python às novas e emocionantes tendências como NodeJS e React.
-
-Fale o que você precisa e nós atendemos.</p>
+                        <p className="paragraph3" style={{textAlign: 'center', margin: '12px'}}>Entre em contato conosco para tirar todas as suas dúvidas e entender melhor ainda como funciona a Quixote Club e todos os benefícios que você pode ter ao fazer a assinatura do plano limited.</p>
                         <br></br>
                     </Col>
                 </Row>
-                <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a Quixote Club</button></a>
             </Container>
         </div>
         </>

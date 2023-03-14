@@ -33,7 +33,7 @@ function Footer() {
                 </Row>
             </div>
 
-                <Row style={{marginTop: '40px', marginBottom: '30px', justifyContent: 'center', textAlign: 'left'}}>
+                {/*<Row style={{marginTop: '40px', marginBottom: '30px', justifyContent: 'center', textAlign: 'left'}}>
                     <Col md='auto' xs>
                         <p className="paragraph3">Redes sociais</p>
                         <ListGroup variant="flush">
@@ -63,7 +63,7 @@ function Footer() {
                     </Col>
                     
                     
-                </Row>
+                </Row>*/}
                 <br></br>
                 <small>&copy; Quixote Club 2023</small>
             </Container>
