@@ -30,7 +30,7 @@ function Home() {
             <Container>
                 <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="">
                     <Col>
-                        <img className="" style={{alignItems: 'center', width: '100vh', height: '70vh'}} src="../img/cover3.jpg" alt="lâmpada" />
+                        <img className="pointo" style={{alignItems: 'center'}} src="../img/cover3.jpg" alt="lâmpada" />
                     </Col>
                     <Col sm>
                         <h2 className="titulo" style={{}}>Quixote Club</h2>

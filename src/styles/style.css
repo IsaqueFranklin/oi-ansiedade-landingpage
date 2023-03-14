@@ -248,6 +248,8 @@ button:hover {
 
 }
 
+
+
 @media (max-width: 768px) {
     .mar {
         margin-left: 10px;
@@ -269,10 +271,10 @@ button:hover {
     }
 
     .pointo {
-        max-width: 400px;
-        max-height: 300px;
-        align-content: left;
-        align-self: left;
+        max-width: 350px;
+        max-height: 600px;
+        align-content: center;
+        align-self: center;
     }
 
     .pointo2 {
@@ -300,6 +302,13 @@ button:hover {
     .mar {
         margin-left: 170px;
         margin-right: 170px;
+    }
+
+    .pointo {
+        width: 100vh;
+        height: 70vh;
+        align-content: center;
+        align-self: center;
     }
 }
 
