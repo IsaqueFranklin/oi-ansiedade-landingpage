@@ -196,17 +196,17 @@ button:hover {
 .bob {
     width: 100%;
     max-width: 100%;
-    height: 90vh;
+    height: 100vh;
     padding: 0;
-    filter: grayscale(0.7);
+    filter: grayscale(0.2);
 }
 
 .bob2 {
     width: 100%;
     max-width: 100%;
-    height: 90vh;
+    height: 100vh;
     padding: 0;
-    filter: grayscale(0.8);
+    filter: grayscale(0.4);
 }
 
 .frontbanner {
