@@ -30,7 +30,7 @@ function Home() {
             <Container>
                 <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="">
                     <Col>
-                        <img className="pointo" style={{alignItems: 'center'}} src="../img/cover3.jpg" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover3.jpg" alt="lâmpada" />
                     </Col>
                     <Col sm>
                         <h2 className="titulo" style={{}}>Quixote Club</h2>
@@ -56,7 +56,7 @@ function Home() {
                     <a href="https://pay.kiwify.com.br/3c1iHxJ"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Assinar Quixote Club</button></a>
                     </Col>
                     <Col>
-                        <img className="pointo" style={{alignItems: 'center'}} src="../img/cover.jpg" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover.jpg" alt="lâmpada" />
                     </Col>
                 </Row>
             </Container>
@@ -64,45 +64,58 @@ function Home() {
 
         <div className="services" id="#services">
             <Container style={{marginTop: '70px', marginBottom: '70px'}}>
-                <h2 className="titulo3" style={{marginBottom: '30px'}}>Conteúdos Exclusivos da Quixote Club</h2>
+                <h2 className="titulo1" style={{marginBottom: '30px'}}>Conteúdos Exclusivos da Quixote Club</h2>
                 <br></br>
                 <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🖥️</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Curso completo do 0 aos 5k/Mês com dropshipping</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/1.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Curso completo do 0 aos 5k/Mês com dropshipping</p>
                     </Col>
                         
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🌎</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Curso o grande plano para sair do zero e ganhar dinheiro online</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/2.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Curso o grande plano para sair do zero e ganhar dinheiro online</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🚀</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Lives ao vivo toda semana sobre estratégia digital para menbros da comunidade</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/3.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Lives toda semana para membros da comunidade</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💸</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Diversos outros cursos e conteúdos que serão produzidos durante a validade da sua assinatura.</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/4.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Grupo de whatsapp e telegram exclusivo para membros.</p>
+                    </Col>
+
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/5.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Lives toda semana para membros da comunidade</p>
+                    </Col>
+
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/6.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Diversos outros cursos produzidos durante a validade da sua assinatura.</p>
                     </Col>
                 </Row>
                 <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2">Assinar</button></a>
+                <br></br>
+                <h1 className='titulo1'>Tudo isso por apenas R$29,90 por mês.</h1>
+                <br></br>
+                <a href="https://pay.kiwify.com.br/3c1iHxJ"><button className="buttonSale2">Assinar Quixote Club</button></a>
             </Container>
         </div>
         
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="mar">
-                    <Col md='auto'>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="img/logo2.png" alt="lâmpada" />
+                <Row style={{marginBottom: '100px', marginTop: '50px', alignItems: 'center'}} className="">
+                    <Col>
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover9.jpg" alt="lâmpada" />
                     </Col>
                     <Col>
-                        <h2 className="titulo1" style={{}}>O que você terá acesso?</h2>
-                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
+                        <h2 className="titulo1" style={{}}>Aprenda a criar valor a ganhar dinheiro na internet</h2>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Sem enrolação, sem falsas promessas, na Quixote Club nos ensinamos o que não ensinam em nenhum outro lugar: a realidade como ela é. Desenvolva habilidades e se torne um jovem empreendedor, faça parte do grupo de networking e conheça sócios.</p>
                         <br></br>
-                        <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
+                        <a href="/about"><button style={{margin: '12px'}}>Quixote Club</button></a>
                     </Col>
                 </Row>
             </Container>
@@ -192,38 +205,6 @@ Fale o que você precisa e nós atendemos.</p>
                 </Row>
                 <br></br>
                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
-            </Container>
-        </div>
-
-        <div className="social">
-            <Container style={{marginTop: '70px', marginBottom: '70px'}} >
-                <Row className="mar">
-                <Col>
-                <h1 className="titulo2" align="center">Você quer que sua empresa te traga mais clientes de forma automática?</h1>
-                <br></br>
-                <p className="paragraph5">Contrate os serviços de tráfego pago para atrair mais clientes pelo Facebook ads para o seu negócio. Com apenas R$10 por dia você já consegue começar a atrair novos clientes.</p>
-                <br></br>
-                <a href=""><button className="buttonSale2">Entrar em contato agora</button></a>
-                </Col>
-                </Row>
-            </Container>
-        </div>
-
-        <div className="products">
-            <Container style={{marginBottom: '90px'}}>
-                <Row className="mar">
-                    <Col md='auto' style={{marginTop: '50px'}}>
-                        <img className="pics" src='img/logo2.png' style={{width: '280px', height: '280px'}} />
-                    </Col>
-
-                    <Col sm style={{marginTop: '90px', marginRight: '80px', alignItems: 'left', justifyContent: 'left'}}>
-                        <h2 className="titulo3" style={{}}>Marketing digital</h2>
-                        <br></br>
-                        <p className="paragraph3">Nós também fornecemos serviços de markerting digital, gestão de tráfego pago, criação de mídias digitais para redes sociais e edição de vídeos personalizadas.</p>
-                        <br></br>
-                        <a href="/planos" style={{margin: '12px'}}><button className="">Ver todos os serviços</button></a>
-                    </Col>
-                </Row>
             </Container>
         </div>
         </>

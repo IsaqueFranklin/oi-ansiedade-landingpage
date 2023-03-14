@@ -352,11 +352,11 @@ button:hover {
 }
 
 .pics {
-    transition: transform .2s;
+    transition: transform .5s;
 }
 
 .pics:hover {
-    transform: scale(1.2) rotate(20deg);
+    transform: scale(1.05);
 }
 
 .pics2 {

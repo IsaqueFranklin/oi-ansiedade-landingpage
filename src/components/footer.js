@@ -65,7 +65,7 @@ function Footer() {
                     
                 </Row>
                 <br></br>
-                <small>&copy; Horizon Labs 2021</small>
+                <small>&copy; Quixote Club 2023</small>
             </Container>
         </div>
     )
