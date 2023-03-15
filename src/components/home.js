@@ -36,7 +36,7 @@ function Home() {
                         <h2 className="titulo" style={{}}>Quixote Club</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Do plebeu ao rei, essa é a Quixote Club, uma comunidade que vai te ensinar desde mentalidade e livros grandiosos até como fazer dinheiro do absoluto zero com a internet sendo jovem e perdido na vida.</p>
                         <br></br>
-                        <a href="https://pay.kiwify.com.br/3c1iHxJ"><button style={{margin: '12px'}}>Assinar agora</button></a>
+                        <a href="https://pay.kiwify.com.br/FUsEqyr"><button style={{margin: '12px'}}>Assinar agora</button></a>
                     </Col>
                 </Row>
             </Container>      
@@ -44,16 +44,16 @@ function Home() {
 
         <div className="pitch" id="#pitch">
             <Container style={{alignItems: 'center'}}>
-                <Row style={{marginTop: '120px', marginBottom: '30px'}} className="">
+                <Row style={{marginTop: '50px', marginBottom: '30px'}} className="">
                     <Col>
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Tenha acesso a conteúdos exclusivos para sair de plebeu e se tornar rei 👑</h4>
                     <br></br>
-                    <p className="paragraph3">A Horizon Labs desenvolve sistemas, aplicativos e automações para a internet, criamos coisas do zero totalmente pensadas para a internet do futuro.</p>
-                    <p className="paragraph3">Construimos softwares online e aplicativos para empresas e negócios, conseguimos melhorar sua produtividade e lucratividade com nossa tecnologia.</p>
+                    <p className="paragraph3">Tornar homens jovens comuns em grandes líderes e empreendedores inovadores, pensantes por conta própria.</p>
+                    <p className="paragraph3">A Quixote Club te ensina como pensar da forma que grandes sujeitos da humanidade pensavam e a sair do absoluto zero e encontrar uma área e um negócio que vai te gerar 10k de faturamento mensal.</p>
                     <p className="paragraph3"></p>
                     <br></br>
-                    <a href="https://pay.kiwify.com.br/3c1iHxJ"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Assinar Quixote Club</button></a>
+                    <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Assinar Quixote Club</button></a>
                     </Col>
                     <Col>
                         <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover.jpg" alt="lâmpada" />
@@ -79,7 +79,7 @@ function Home() {
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/3.png" />
-                        <p style={{marginLeft: '50px'}} className="paragraph3">Lives toda semana para membros da comunidade</p>
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Curso Facebook Ads 3.0</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
@@ -101,7 +101,7 @@ function Home() {
                 <br></br>
                 <h1 className='titulo1'>Tudo isso por apenas R$29,90 por mês.</h1>
                 <br></br>
-                <a href="https://pay.kiwify.com.br/3c1iHxJ"><button className="buttonSale2">Assinar Quixote Club</button></a>
+                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2">Assinar Quixote Club</button></a>
             </Container>
         </div>
         
@@ -134,7 +134,7 @@ function Home() {
                                 <h1 className="titulo12" align="center">Networking</h1>
                                 <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href=""><button align="center" style={{margin: '25px'}}>Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button align="center" style={{margin: '25px'}}>Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -149,7 +149,7 @@ function Home() {
                                 <h1 className="titulo12" align="center">Estilo de vida</h1>
                                 <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href=""><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -161,10 +161,10 @@ function Home() {
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo12" align="center">Negócios & Dinheiro</h1>
+                                <h1 className="titulo12" align="center">Negócio online</h1>
                                 <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href=""><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -189,4 +189,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;

@@ -174,12 +174,6 @@ button:hover {
     transform: scale(1.1);
 }
 
-.icons {
-    height: 50px;
-    width: 50px;
-    justify-content: space-between;
-}
-
 /*Front page*/
 
 .frontbanne {
@@ -294,6 +288,18 @@ button:hover {
     .logo {
         margin-left: 30px;
     }
+
+    .icons {
+        height: 30px;
+        width: 30px;
+        justify-content: space-between;
+        margin: 2px;
+    }
+
+    .cont {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -311,6 +317,13 @@ button:hover {
 }
 
 @media (min-width: 1000px) {
+
+    .icons {
+        height: 50px;
+        width: 50px;
+        justify-content: space-between;
+        margin: 10px;
+    }
 
     .titulo12 {
         font-size: 70px;
