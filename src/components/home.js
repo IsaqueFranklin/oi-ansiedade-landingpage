@@ -3,10 +3,10 @@ import { Container, Row, Col, Card, ListGroup, Carousel } from 'react-bootstrap'
 import {Helmet} from "react-helmet";
 
 const seo = {
-    title: 'Horizon Labs',
-    description: 'Somos um laboratório de ideias tecnológicas que programa softwares e sistemas para as necessidades dos nossos clientes.',
+    title: 'Quixote Club',
+    description: 'Do plebeu ao rei, essa é a Quixote Club, uma comunidade que vai te ensinar desde mentalidade e livros grandiosos até como fazer dinheiro do absoluto zero com a internet sendo jovem e perdido na vida.',
     url: '',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80',
+    image: 'https://images.unsplash.com/photo-1501761095094-94d36f57edbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80',
 }
 
 
@@ -107,7 +107,7 @@ function Home() {
         
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '100px', marginTop: '50px', alignItems: 'center'}} className="">
+                <Row style={{marginBottom: '100px', marginTop: '50px', alignItems: 'center'}}>
                     <Col>
                         <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover9.jpg" alt="lâmpada" />
                     </Col>
@@ -131,10 +131,10 @@ function Home() {
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo">Networking</h1>
+                                <h1 className="titulo12" align="center">Networking</h1>
                                 <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href=""><button className="">Fazer parte</button></a>
+                                <a href=""><button align="center" style={{margin: '25px'}}>Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -146,10 +146,10 @@ function Home() {
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo">Estilo de vida</h1>
+                                <h1 className="titulo12" align="center">Estilo de vida</h1>
                                 <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href=""><button className="">Fazer parte</button></a>
+                                <a href=""><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -161,34 +161,15 @@ function Home() {
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo">Negócios & Dinheiro</h1>
+                                <h1 className="titulo12" align="center">Negócios & Dinheiro</h1>
                                 <h4 align="center" className="paragraph">Quixote Club Limited</h4>
                                 <br></br>
-                                <a href=""><button className="">Fazer parte</button></a>
+                                <a href=""><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>           
         </div>           
-
-        {/*<div className="pitch" id="#pitch">
-            <Container style={{alignItems: 'center', textAlign: ''}}>
-                <Row style={{marginTop: '100px', marginBottom: '100px'}} className="mar">
-                    <Col sm>
-                    <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
-                    <br></br>
-                    <p className="paragraph3">Aplicativos, sistemas e websites modernos precisam ser pensados desde o início para a web 3.0 em 2022, é isso que nós fazemos, criamos coisas do zero totalmente pensadas para a internet em 2022.</p>
-                    <p className="paragraph3">Na Horizon Labs não ficamos presos ao passado e conseguimos criar e programar - quase - tudo que for necessário para o sucesso do seu negócio.</p>
-                    <p className="paragraph3"></p>
-                    <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos projetos da web 3.0</h4>
-                    <br></br>
-                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button style={{marginTop: '40px'}} className="buttonSale2">Conversar com os programadores</button></a>
-                    </Col>
-                </Row>
-            </Container>
-    </div>*/}
 
         <div className="packages" id="#packages">
             <Container style={{marginBottom: '90px'}}>

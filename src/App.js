@@ -1,4 +1,5 @@
-import './App.css';
+import React from 'react';
+import "./App.css";
 import './styles/style.css';
 import { BrowserRouter, Routes, Route, Redirect, Router } from 'react-router-dom';
 import firebase, { FirebaseContext } from './firebase';
@@ -16,9 +17,9 @@ function App() {
   return (
     <BrowserRouter>
       <FirebaseContext.Provider value={{ user, firebase }}>
-        <div className="">
+        <div>
           <Header />
-          <div classname="">
+          <div>
             <Routes>
               <Route exact path='/' element={ <Home /> } />
               <Route exact path='/contato' element={ <Contato /> } />

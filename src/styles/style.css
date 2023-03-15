@@ -189,7 +189,7 @@ button:hover {
     width: 100%;
     color: #fff;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: left;
     font-family: 'Poppins', sans-serif;
 }
@@ -250,6 +250,13 @@ button:hover {
 
 
 @media (max-width: 768px) {
+
+    .titulo12 {
+        font-size: 36px;
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+    }
+
     .mar {
         margin-left: 10px;
         margin-right: 10px;
@@ -270,7 +277,7 @@ button:hover {
     }
 
     .pointo {
-        max-width: 350px;
+        max-width: 325px;
         max-height: 600px;
         align-content: center;
         align-self: center;
@@ -304,6 +311,13 @@ button:hover {
 }
 
 @media (min-width: 1000px) {
+
+    .titulo12 {
+        font-size: 70px;
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+    }
+
     .mar {
         margin-left: 170px;
         margin-right: 170px;
