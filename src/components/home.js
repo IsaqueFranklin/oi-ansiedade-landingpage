@@ -6,7 +6,7 @@ const seo = {
     title: 'Quixote Club',
     description: 'Do plebeu ao rei, essa é a Quixote Club, uma comunidade que vai te ensinar desde mentalidade e livros grandiosos até como fazer dinheiro do absoluto zero com a internet sendo jovem e perdido na vida.',
     url: '',
-    image: 'https://images.unsplash.com/photo-1501761095094-94d36f57edbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80',
+    image: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
 }
 
 
@@ -30,11 +30,13 @@ function Home() {
             <Container>
                 <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="">
                     <Col>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover3.jpg" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/nature.jpg" alt="lâmpada" />
                     </Col>
                     <Col sm>
-                        <h2 className="titulo" style={{}}>Quixote Club</h2>
-                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Do plebeu ao rei, essa é a Quixote Club, uma comunidade que vai te ensinar desde mentalidade e livros grandiosos até como fazer dinheiro do absoluto zero com a internet sendo jovem e perdido na vida.</p>
+                        <h2 className="titulo" style={{color: "#fff"}}>Oi Ansiedade</h2>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left', color: '#fff'}}>O programa Oi Ansiedade é uma jornada que irá desenvolver em você uma
+consciência de que é possível entender onde estão os gatilhos que disparam
+sua ansiedade.</p>
                         <br></br>
                         <a href="https://pay.kiwify.com.br/FUsEqyr"><button style={{margin: '12px'}}>Assinar agora</button></a>
                     </Col>
@@ -47,13 +49,18 @@ function Home() {
                 <Row style={{marginTop: '50px', marginBottom: '30px'}} className="">
                     <Col>
                     <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Tenha acesso a conteúdos exclusivos para sair de plebeu e se tornar rei 👑</h4>
+                    <h4 className="titulo3" style={{}} align="left">A jornada do programa que vai tratar sua ansiedade</h4>
                     <br></br>
-                    <p className="paragraph3">Tornar homens jovens comuns em grandes líderes e empreendedores inovadores, pensantes por conta própria.</p>
-                    <p className="paragraph3">A Quixote Club te ensina como pensar da forma que grandes sujeitos da humanidade pensavam e a sair do absoluto zero e encontrar uma área e um negócio que vai te gerar 10k de faturamento mensal.</p>
+                    <p className="paragraph3">O programa Oi Ansiedade busca ensinar a todos a lidar com os
+transtornos de ansiedade oferecendo a eles ferramentas através de técnicas
+validadas pela ciência e pela prática clínica.</p>
+                    <p className="paragraph3">Mesmo que a ansiedade seja algo comum em todos os
+seres humanos, os “transtornos de ansiedade” que são a manifestação
+descontrolada desta ansiedade não tem sido benéficos para quem é por eles
+dominado.</p>
                     <p className="paragraph3"></p>
                     <br></br>
-                    <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Assinar Quixote Club</button></a>
+                    <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Quero fazer parte</button></a>
                     </Col>
                     <Col>
                         <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover.jpg" alt="lâmpada" />
@@ -64,7 +71,7 @@ function Home() {
 
         <div className="services" id="#services">
             <Container style={{marginTop: '70px', marginBottom: '70px'}}>
-                <h2 className="titulo1" style={{marginBottom: '30px'}}>Conteúdos Exclusivos da Quixote Club</h2>
+                <h2 className="titulo1" style={{marginBottom: '30px'}}>O que você receberá e tratará durante o percuso:</h2>
                 <br></br>
                 <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>

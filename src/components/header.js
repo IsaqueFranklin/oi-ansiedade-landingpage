@@ -9,13 +9,13 @@ function Header() {
     const {user, firebase} = React.useContext(FirebaseContext)
 
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" style={{backgroundColor: "#010107", color: "#fff",}}>
-            <Navbar.Brand className='logo' style={{fontFamily: 'Playfair Display', fontSize: 28}} href="/">Quixote Club</Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" style={{backgroundColor: "#fff", color: "#0a0a0a",}}>
+            <Navbar.Brand className='logo' style={{fontFamily: 'Schibsted Grotesk', fontSize: 28, color: '#0a0a0a'}} href="/">Oi Ansiedade</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link className="header" style={{}} href="/about"><button>Entrar</button></Nav.Link>
-                    <Nav.Link className="header2" style={{}} href="https://pay.kiwify.com.br/FUsEqyr"><button>Assinar</button></Nav.Link>
+                    <Nav.Link className="header" style={{}} href="/about"><button className='buttonSale4'>Entrar</button></Nav.Link>
+                    <Nav.Link className="header2" style={{}} href="https://pay.kiwify.com.br/FUsEqyr"><button className='buttonSale4'>Assinar</button></Nav.Link>
                     {/*<Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/planos">Planos</Nav.Link>
                     <Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/contato">Contato</Nav.Link>*/}
                     {/*{user && (
