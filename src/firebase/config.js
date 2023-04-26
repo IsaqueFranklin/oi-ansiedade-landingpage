@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAL5Va51cB2_zkhZsK8rj3zs00zs4mrYDs",
-  authDomain: "quixote-club.firebaseapp.com",
-  projectId: "quixote-club",
-  storageBucket: "quixote-club.appspot.com",
-  messagingSenderId: "58929229940",
-  appId: "1:58929229940:web:80f94bea53b47494bda121",
-  measurementId: "G-5BWKFV5E76"
+  apiKey: "AIzaSyAs--k1wlRuuUzTU05FX4_3LNJPDp-girY",
+  authDomain: "oi-ansiedade.firebaseapp.com",
+  projectId: "oi-ansiedade",
+  storageBucket: "oi-ansiedade.appspot.com",
+  messagingSenderId: "198835044617",
+  appId: "1:198835044617:web:caba99469c05e867d653d8",
+  measurementId: "G-96JPL7EE94"
 };
   
 export default firebaseConfig;
