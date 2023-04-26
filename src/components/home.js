@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, ListGroup, Carousel } from 'react-bootstrap'
 import {Helmet} from "react-helmet";
 
 const seo = {
-    title: 'Quixote Club',
+    title: 'Oi Ansiedade',
     description: 'Do plebeu ao rei, essa é a Quixote Club, uma comunidade que vai te ensinar desde mentalidade e livros grandiosos até como fazer dinheiro do absoluto zero com a internet sendo jovem e perdido na vida.',
     url: '',
     image: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
@@ -30,7 +30,7 @@ function Home() {
             <Container>
                 <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="">
                     <Col>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/nature.jpg" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/wom.jpg" alt="lâmpada" />
                     </Col>
                     <Col sm>
                         <h2 className="titulo" style={{color: "#fff"}}>Oi Ansiedade</h2>
@@ -63,7 +63,7 @@ dominado.</p>
                     <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Quero fazer parte</button></a>
                     </Col>
                     <Col>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover.jpg" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/nature5.jpg" alt="lâmpada" />
                     </Col>
                 </Row>
             </Container>
@@ -75,121 +75,147 @@ dominado.</p>
                 <br></br>
                 <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/1.png" />
-                        <p style={{marginLeft: '50px'}} className="paragraph3">Curso completo do 0 aos 5k/Mês com dropshipping</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/7.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Aprender como lidar com ansieade no dia-a-dia</p>
                     </Col>
                         
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/2.png" />
-                        <p style={{marginLeft: '50px'}} className="paragraph3">Curso o grande plano para sair do zero e ganhar dinheiro online</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/8.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Técnicas para controle de ansiedade</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/3.png" />
-                        <p style={{marginLeft: '50px'}} className="paragraph3">Curso Facebook Ads 3.0</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/9.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Aulas práticas e precisas para te ajudar a vencer a ansiedade</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/4.png" />
-                        <p style={{marginLeft: '50px'}} className="paragraph3">Grupo de whatsapp e telegram exclusivo para membros.</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/10.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Ebooks com passo a passo das técnicas do psicanalista Márcio Azevedo</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/5.png" />
-                        <p style={{marginLeft: '50px'}} className="paragraph3">Lives toda semana para membros da comunidade</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/11.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Um acompanhando ao vivo semanal com o psicanalista Márcio Azevedo</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
-                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/6.png" />
-                        <p style={{marginLeft: '50px'}} className="paragraph3">Diversos outros cursos produzidos durante a validade da sua assinatura.</p>
+                        <img className="pics" style={{width: '30vh', height: '30vh', marginBottom: '30px', marginTop: '0px'}} src="../img/12.png" />
+                        <p style={{marginLeft: '50px'}} className="paragraph3">Diversos outros conteúdos voltados ao controle e domínio da ansiedade</p>
                     </Col>
                 </Row>
                 <br></br>
                 <br></br>
                 <h1 className='titulo1'>Tudo isso por apenas R$29,90 por mês.</h1>
                 <br></br>
-                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2">Assinar Quixote Club</button></a>
+                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2">Quero fazer parte</button></a>
             </Container>
         </div>
         
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '100px', marginTop: '50px', alignItems: 'center'}}>
+                <Row style={{marginBottom: '100px', marginTop: '50px', alignItems: 'center', color: '#fff'}}>
                     <Col>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/cover9.jpg" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="https://images.unsplash.com/photo-1579038773867-044c48829161?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="lâmpada" />
                     </Col>
                     <Col>
-                        <h2 className="titulo1" style={{}}>Aprenda a criar valor a ganhar dinheiro na internet</h2>
-                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Sem enrolação, sem falsas promessas, na Quixote Club nos ensinamos o que não ensinam em nenhum outro lugar: a realidade como ela é. Desenvolva habilidades e se torne um jovem empreendedor, faça parte do grupo de networking e conheça sócios.</p>
+                        <h2 className="titulo1" style={{color: '#fff'}}>Quem é Márcio Azevedo?</h2>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left', color: '#fff'}}>Teólogo formado pela Umesp (Universidade Metodista de
+São Paulo), tendo pós graduação em neuro-psicopedagogia clínica e
+Psicanalista pelo Centro de Estudos em Terapias e Psicanalise (CETEP –
+Campinas, SP), Especialista em Transtornos de Ansiedade. Tendo mais 20
+anos de experiência no tratamento e cuidado do ser humano.</p>
                         <br></br>
-                        <a href="/about"><button className='buttonSale2' style={{margin: '12px'}}>Quixote Club</button></a>
+                        <a href="/about"><button style={{margin: '12px'}}>Saber mais</button></a>
                     </Col>
                 </Row>
             </Container>
         </div>
 
         <div className="frontbanne">
-        <Carousel style={{height: "90vh", width: "100%"}}>
+        <Carousel style={{height: "90vh", width: "100%", marginBottom: '50px'}}>
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="../img/cover12.jpg"
+                            src="../img/nature6.jpg"
                             alt="First slide"
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo12" align="center">Networking</h1>
-                                <h4 align="center" className="paragraph">Quixote Club Limited</h4>
+                                <h1 className="titulo" style={{color: "#fff", fontSize: '60px', alignItems: 'center'}}>O deserto</h1>
                                 <br></br>
-                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button align="center" style={{margin: '25px'}}>Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale3">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="../img/cover.jpg"
+                            src="../img/nature3.jpg"
                             alt="Second slide"
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo12" align="center">Estilo de vida</h1>
-                                <h4 align="center" className="paragraph">Quixote Club Limited</h4>
+                                <h1 className="titulo" style={{color: "#fff", fontSize: '60px', alignItems: 'center'}}>A jornada</h1>
                                 <br></br>
-                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale3">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="../img/cover13.jpg"
+                            src="../img/nature4.jpg"
                             alt="Third slide"
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo12" align="center">Negócio online</h1>
-                                <h4 align="center" className="paragraph">Quixote Club Limited</h4>
+                                <h1 className="titulo" style={{color: "#fff", fontSize: '60px', alignItems: 'center'}}>A realização</h1>
                                 <br></br>
-                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button align="center" className="" style={{margin: '25px'}}>Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale3">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>           
-        </div>           
+        </div>      
+
+        <div className="pitch" id="#pitch">
+            <Container style={{alignItems: 'center'}}>
+                <Row style={{marginTop: '150px', marginBottom: '30px'}} className="">
+                    <Col>
+                    <br></br>
+                    <h4 className="titulo3" style={{}} align="left">A jornada do programa que vai tratar sua ansiedade</h4>
+                    <br></br>
+                    <p className="paragraph3">O programa Oi Ansiedade é uma jornada que irá desenvolver na pessoa uma
+consciência de que é possível entender onde estão os gatilhos que disparam
+sua ansiedade.</p>
+                    <p className="paragraph3">Este programa é formatado em uma jornada, um caminho em que seu usuário
+terá atividades práticas, vídeos explicativos sobre técnicas para lidar com ansiedade além da meditação para serem realizadas ao
+longo do dia e um encontro online semanal com o Psicanalista Marcio Azevedo a fim de
+receber atenção especializada.</p>
+                    <p className="paragraph3">Neste encontro online toda semana seus participantes receberam aulas sobre cada transtorno de Ansiedade.</p>
+                    <br></br>
+                    <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Quero fazer parte</button></a>
+                    </Col>
+                    <Col>
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/caminho.jpg" alt="lâmpada" />
+                    </Col>
+                </Row>
+            </Container>
+        </div>     
 
         <div className="packages" id="#packages">
             <Container style={{marginBottom: '90px'}}>
-                <Row style={{marginTop: '200px', marginBottom: '40px'}} className="mar">
+                <Row style={{marginTop: '50px', marginBottom: '40px'}} className="mar">
                     <Col sm>
-                        <h2 className="titulo1" style={{}}>Ainda tem dúvidas sobre a Quixote Club?</h2>
+                        <h2 className="titulo1" style={{}}>Ainda tem dúvidas sobre o programa Oi Ansiedade?</h2>
                         <br></br>
                         <br></br>
-                        <p className="paragraph3" style={{textAlign: 'center', margin: '12px'}}>Entre em contato conosco para tirar todas as suas dúvidas e entender melhor ainda como funciona a Quixote Club e todos os benefícios que você pode ter ao fazer a assinatura do plano limited.</p>
+                        <p className="paragraph3" style={{textAlign: 'center', margin: '12px'}}>Entre em contato conosco para tirar todas as suas dúvidas e entender melhor ainda como funciona o programa Oi Ansiedade e todos os benefícios que você pode ter ao fazer desse jornada contra a ansieade.</p>
                         <br></br>
                     </Col>
                 </Row>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a Quixote Club</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar conosco</button></a>
             </Container>
         </div>
         </>

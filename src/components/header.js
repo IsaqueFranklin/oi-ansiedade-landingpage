@@ -10,7 +10,7 @@ function Header() {
 
     return (
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" style={{backgroundColor: "#fff", color: "#0a0a0a",}}>
-            <Navbar.Brand className='logo' style={{fontFamily: 'Schibsted Grotesk', fontSize: 28, color: '#0a0a0a'}} href="/">Oi Ansiedade</Navbar.Brand>
+            <Navbar.Brand className='logo' style={{fontFamily: 'Schibsted Grotesk', fontSize: 28, color: '#08A142'}} href="/">Oi Ansiedade</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
