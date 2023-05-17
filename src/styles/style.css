@@ -354,6 +354,13 @@ button:hover {
         align-self: center;
     }
 
+    .pointo2 {
+        width: 100vh;
+        height: 100vh;
+        align-content: center;
+        align-self: center;
+    }
+
     .header {
         margin-left: 830px;
     }
@@ -372,6 +379,13 @@ button:hover {
     .pointo {
         width: 90vh;
         height: 70vh;
+        align-content: center;
+        align-self: center;
+    }
+
+    .pointo2 {
+        width: 90vh;
+        height: 90vh;
         align-content: center;
         align-self: center;
     }

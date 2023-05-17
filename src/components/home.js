@@ -33,12 +33,12 @@ function Home() {
                         <img className="pics pointo" style={{alignItems: 'center'}} src="../img/wom.jpg" alt="lâmpada" />
                     </Col>
                     <Col sm>
-                        <h2 className="titulo" style={{color: "#fff"}}>Oi Ansiedade</h2>
+                        <h2 className="titulo" style={{marginTop: '20px', color: "#fff"}}>Oi Ansiedade</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left', color: '#fff'}}>O programa Oi Ansiedade é uma jornada que irá desenvolver em você uma
 consciência de que é possível entender onde estão os gatilhos que disparam
 sua ansiedade.</p>
                         <br></br>
-                        <a href="https://pay.kiwify.com.br/FUsEqyr"><button style={{margin: '12px'}}>Assinar agora</button></a>
+                        <a href="https://pay.kiwify.com.br/G5brJ6a"><button style={{margin: '12px'}}>Assinar agora</button></a>
                     </Col>
                 </Row>
             </Container>      
@@ -60,7 +60,7 @@ descontrolada desta ansiedade não tem sido benéficos para quem é por eles
 dominado.</p>
                     <p className="paragraph3"></p>
                     <br></br>
-                    <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Quero fazer parte</button></a>
+                    <a href="https://pay.kiwify.com.br/G5brJ6a"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Quero fazer parte</button></a>
                     </Col>
                     <Col>
                         <img className="pics pointo" style={{alignItems: 'center'}} src="../img/nature5.jpg" alt="lâmpada" />
@@ -108,7 +108,7 @@ dominado.</p>
                 <br></br>
                 <h1 className='titulo1'>Tudo isso por apenas R$29,90 por mês.</h1>
                 <br></br>
-                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2">Quero fazer parte</button></a>
+                <a href="https://pay.kiwify.com.br/G5brJ6a"><button className="buttonSale2">Quero fazer parte</button></a>
             </Container>
         </div>
         
@@ -116,10 +116,10 @@ dominado.</p>
             <Container>
                 <Row style={{marginBottom: '100px', marginTop: '50px', alignItems: 'center', color: '#fff'}}>
                     <Col>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="https://images.unsplash.com/photo-1579038773867-044c48829161?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="lâmpada" />
+                        <img className="pics pointo pointo2" style={{alignItems: 'center'}} src="../img/mar.jpeg" alt="Márcio" />
                     </Col>
                     <Col>
-                        <h2 className="titulo1" style={{color: '#fff'}}>Quem é Márcio Azevedo?</h2>
+                        <h2 className="titulo1" style={{marginTop: '20px', color: '#fff'}}>Quem é Márcio Azevedo?</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left', color: '#fff'}}>Teólogo formado pela Umesp (Universidade Metodista de
 São Paulo), tendo pós graduação em neuro-psicopedagogia clínica e
 Psicanalista pelo Centro de Estudos em Terapias e Psicanalise (CETEP –
@@ -144,7 +144,7 @@ anos de experiência no tratamento e cuidado do ser humano.</p>
                             <div className="frontWords2">
                                 <h1 className="titulo" style={{color: "#fff", fontSize: '60px', alignItems: 'center'}}>O deserto</h1>
                                 <br></br>
-                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale3">Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/G5brJ6a"><button className="buttonSale3">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -158,7 +158,7 @@ anos de experiência no tratamento e cuidado do ser humano.</p>
                             <div className="frontWords2">
                                 <h1 className="titulo" style={{color: "#fff", fontSize: '60px', alignItems: 'center'}}>A jornada</h1>
                                 <br></br>
-                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale3">Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/G5brJ6a"><button className="buttonSale3">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -172,7 +172,7 @@ anos de experiência no tratamento e cuidado do ser humano.</p>
                             <div className="frontWords2">
                                 <h1 className="titulo" style={{color: "#fff", fontSize: '60px', alignItems: 'center'}}>A realização</h1>
                                 <br></br>
-                                <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale3">Fazer parte</button></a>
+                                <a href="https://pay.kiwify.com.br/G5brJ6a"><button className="buttonSale3">Fazer parte</button></a>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -195,7 +195,7 @@ longo do dia e um encontro online semanal com o Psicanalista Marcio Azevedo a fi
 receber atenção especializada.</p>
                     <p className="paragraph3">Neste encontro online toda semana seus participantes receberam aulas sobre cada transtorno de Ansiedade.</p>
                     <br></br>
-                    <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Quero fazer parte</button></a>
+                    <a href="https://pay.kiwify.com.br/G5brJ6a"><button className="buttonSale2" style={{marginTop: '10px', marginBottom: '30px'}}>Quero fazer parte</button></a>
                     </Col>
                     <Col>
                         <img className="pics pointo" style={{alignItems: 'center'}} src="../img/caminho.jpg" alt="lâmpada" />
@@ -215,7 +215,7 @@ receber atenção especializada.</p>
                         <br></br>
                     </Col>
                 </Row>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar conosco</button></a>
+                <a href="https://wa.me/5532984829872?text=Ol%C3%A1%2C+M%C3%A1rcio%21+Gostaria+de+saber+mais+sobre+o+programa+Oi+Ansiedade%2C+poderia+me+enviar+um+%C3%A1udio+explicando+melhor%3F"><button className="buttonSale2" style={{margin: '12px'}}>Conversar conosco</button></a>
             </Container>
         </div>
         </>

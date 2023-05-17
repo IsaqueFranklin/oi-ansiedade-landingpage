@@ -8,7 +8,7 @@ function Footer() {
             <div style={{marginTop: '50px', marginBottom: '20px', justifyContent:'center', alignItems: 'center'}}>
                 <Row style={{justifyContent: 'center'}}>
                     <Col md='auto' xs>
-                        <a href="https://www.instagram.com/quixote.inc/" target='_blank'>
+                        <a href="https://www.instagram.com/marcio_azevedo2/" target='_blank'>
                         <img style={{}} className="pics icons" src="img/instagram.png" alt="instagram" />
                         </a>
                     </Col>

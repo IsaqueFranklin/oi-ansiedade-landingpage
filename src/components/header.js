@@ -14,8 +14,8 @@ function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link className="header" style={{}} href="/about"><button className='buttonSale4'>Entrar</button></Nav.Link>
-                    <Nav.Link className="header2" style={{}} href="https://pay.kiwify.com.br/FUsEqyr"><button className='buttonSale4'>Assinar</button></Nav.Link>
+                    <Nav.Link className="header" style={{}} href="https://dashboard.kiwify.com.br/course/premium/a1882dea-4d31-4605-8038-e197ba58c6c5"><button className='buttonSale4'>Entrar</button></Nav.Link>
+                    <Nav.Link className="header2" style={{}} href="https://pay.kiwify.com.br/G5brJ6a"><button className='buttonSale4'>Assinar</button></Nav.Link>
                     {/*<Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/planos">Planos</Nav.Link>
                     <Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/contato">Contato</Nav.Link>*/}
                     {/*{user && (
